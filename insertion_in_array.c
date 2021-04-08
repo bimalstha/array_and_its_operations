@@ -1,5 +1,5 @@
 //program to insert in an array in a given position
-//just for the git_commit
+//just for the git commit
 #include<stdio.h>
 #include<stdlib.h>
 int main()
