@@ -1,5 +1,6 @@
 //program to insert in an array in a given position
 //just for the git commit
+//adding comment for second git commit
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -19,10 +20,11 @@ for(i=0; i <= len-1; i++)
 printf("%d",a[i]);
 printf("\n");
 }
-printf("enter the number to insert in the array \n");
-scanf("%d",&num);
 printf("enter the position to insert the number \n");
 scanf("%d",&pos);
+printf("enter the number to insert in the array \n");
+scanf("%d",&num);
+
 --pos;
 insert_array(a,pos,num,len);     //function calling
 return 0;
